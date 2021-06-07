@@ -20,6 +20,7 @@
   import MyHeader from './Header.vue'
   export default {
     components: { MyHeader },
+    props:['id'],
     data() {
     return {
       user: ''
@@ -31,7 +32,7 @@
       }
   },
    mounted() {
-    axios.get("https://jsonplaceholder.typicode.com/users"+this.id)
+    axios.get("https://jsonplaceholder.typicode.com/users/"+this.id)
       .then(res => {
         this.usersList = res.data;
         console.log(this.usersList)
