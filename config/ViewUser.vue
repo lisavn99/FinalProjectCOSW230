@@ -31,7 +31,7 @@
       }
   },
    mounted() {
-    axios.get("https://jsonplaceholder.typicode.com/users")
+    axios.get("https://jsonplaceholder.typicode.com/users"+this.id)
       .then(res => {
         this.usersList = res.data;
         console.log(this.usersList)
