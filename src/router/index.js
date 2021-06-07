@@ -16,7 +16,7 @@ export default new Router({
       props: true,
     },
     {
-        path: '/ViewUser/:id',
+        path: '/user/:id',
         name: 'Id',
         component: ViewUser,
         props: true,
