@@ -2,8 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Form from '@/components/Form'
 import Main from '@/components/Main'
-import Product from '@/components/Product'
-import EditProduct from '@/components/EditProduct'
+import Product from '@/components/ViewUser'
+import EditProduct from '@/components/EditUser'
 Vue.use(Router)
 
 export default new Router({
@@ -16,15 +16,15 @@ export default new Router({
       props: true,
     },
     {
-        path: '/product/:id',
+        path: '/ViewUser/:id',
         name: 'Id',
-        component: Product,
+        component: ViewUser,
         props: true,
         children: [
           {
             path: 'edit',
             name: 'Edit',
-            component: EditProduct,
+            component: EditUser,
             props: true
           }
         ]
