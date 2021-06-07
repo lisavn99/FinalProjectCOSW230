@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css?family=Chonburi|Dancing+Script');
+    @media screen and (min-width: 640px) {
+      .navbox {width: 150px; float: left;}  
+    }
+    /* Within Container */
+    .zoom-within-container {
+      height: 200px; /* [1.1] Set it as per your need */
+      overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    }
+    .zoom-within-container{
+      transition: transform .5s ease;
+    }
+    .zoom-within-container:hover{
+      transform: scale(1.5);
+    }
+    a:hover #img, a:focus #img {
+      transform:translate(-100px,-100px);
+    } 
+    body {
+      background-image:url("http://lisaloanvu.com/cosw230/final/images/bg.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    #logo{
+      float:left;
+      width:50px;
+      height:50px;
+      padding-left:5%;
+    }
+    h1 {
+      font-family: 'Chonburi', cursive;
+      color: red;
+      text-align: center;
+      font-size: 4em;
+      font-style:italic;
+    }
+    h2 {
+      font-family: 'Dancing Script', cursive;
+    }
+    h3 {
+         font-family: 'Chonburi', cursive;
+    }
+    
+    
+    #pic{
+      float:center;
+      width:20%;
+      height:20%;
+    }
+    #logo{
+      float:left;
+      width:250px;
+      height:100px;
+      padding-left:5%;
+    }
+    #container {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+     align-items: stretch;
+     font-family: 'Chonburi', cursive;
+     padding:2%;
+    } 
+    
+    #img:hover {
+      -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Safari 3-8 */
+      transform: scale(1.5); 
+    }
+    
+    
+        #img {
+          float: left;
+          width: 100%;
+          height: 20%;
+          margin-top: 100px;
+          margin-bottom: 30px;
+          transition: transform .2s;
+        }
+    
+        
+    
+        
+    
+        #shoppingcartclass {
+          font-size: 12px;
+          text-align: left;
+        }
+    
+        @import url('https://fonts.googleapis.com/css?family=Chonburi|Dancing+Script');
+        body {
+          background-image: url("static/images/bg.jpg");
+        }
+    
+        h1 {
+          font-family: 'Chonburi', cursive;
+          color: red;
+          text-align: center;
+          font-size: 4em;
+          font-style: italic;
+        }
+    
+        h2 {
+          font-family: 'Dancing Script', cursive;
+        }
+    
+        h3 {
+          font-family: 'Chonburi', cursive;
+        }
+    
+        #header {
+          position: sticky;
+          z-index: 100;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          top: 0px;
+          height: 50px;
+          background-color: #D0D0D0;
+          padding: 10px 20px 10px 20px;
+          border-bottom: 1px solid black;
+        }
+    
+        img {
+          max-width: 100%;
+        }
+    
+        #header-img {
+          float: center;
+          width: 20%;
+          height: 20%;
+        }
+    
+        #header-img {
+          float: left;
+          width: 150px;
+          height: 100px;
+          padding-left: 5%;
+          margin-bottom: 10px;
+        }
+    
+        #menu {
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-around;
+          align-items: stretch;
+          font-family: 'Chonburi', cursive;
+          padding: 2%;
+        }
+    
+        .box {
+          margin: auto;
+          padding: 1% 25% 1% 25%;
+          width: 700px;
+          text-align: left;
+          margin-bottom: 10px;
+        }
+    
+        .box1 {
+          background-color: #efecca;
+          color: #010;
+        }
+    
+        .box2 {
+          background-color: #b185a7;
+          color: #fff;
+        }
+    
+        .box3 {
+          background-color: #06d6a0;
+          color: #010;
+        }
+    
+        @media screen and (min-width: 640px) {
+          .nav-link {
+            width: 150px;
+            float: left;
+          }
+        }
+    
+        div iframe {
+          display: block;
+          width: 800px;
+          height: 400px;
+          margin: 0 auto;
+          border: 0;
+        }
+    
+        fieldset {
+          margin-left: 500px;
+          width: 25%;
+          background-color: grey;
+          border: none;
+          padding-top: 0;
+          position: relative;
+          float: right;
+          margin: 0 2% 0 0;
+          width: 29.35%;
+          padding: .25em 2.5% 0 0;
+        }
+    
+        input[type="checkbox"] {
+          font-family: Arial, sans-serif;
+          font-size: 1em;
+          color: black;
+    
+        }
+    
+        input[type="text"] {
+          padding: 5px;
+          margin: 5px 5px 5px 25px;
+          font-family: Arial, sans-serif;
+          font-size: 1em;
+          width: 300px;
+        }
+    
+        input[type="email"] {
+          padding: 5px;
+          margin: 5px 5px 5px 25px;
+          font-family: Arial, sans-serif;
+          font-size: 1em;
+          width: 300px;
+        }
+    
+        select checked {
+          color: black;
+        }
+    
+        input[type="submit"] {
+          margin-left: 80px;
+          font-size: 19px;
+          font-weight: 700;
+          letter-spacing: 1px;
+          color: #ffffff;
+          min-width: 194px;
+          padding: 7px 20px;
+          text-align: center;
+          border-radius: 5px;
+          
+          -webkit-border-radius: 5px;
+          background: #6633CC;
+          box-shadow: inset 0 1px 1px #a4e388;
+          -webkit-box-shadow: inset 0 1px 1px #a4e388;
+          border: 1px solid;
+          border-color: #3b6e22 #3b6e22 #2c5115;
+          margin-top: 10px;
+          margin-bottom: 0;
+          text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+          cursor: pointer;
+    
+        }
+    
+        textarea {
+          height: 5em;
+          width: 300px;
+          padding: 5px;
+          margin: 5px 5px 5px 25px;
+          font-family: Arial, sans-serif;
+          font-size: 1em;
+        }
+
+
+
+
+header h1{
+    padding: 10px 20px;
+}
+
+
+.cart {
+  padding: 20px 50px;
+}
+.boxes {
+  margin-top: 20px;
+}
+
+.verify {
+  margin-top: 20px;
+}
+
+.submit {
+  margin-top:20px;
+  float: right;
+}
+
+.pagecheckout {
+  padding: 20px 50px;
+}
+.description {
+  font-size: 150%;
+  margin-top:50px;
+}
+
+.inventory-message {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+
+.product {
+  margin-top: 30px;
+  margin-left: 20px;
+  max-height:300px;
+  max-width:100%;
+}
+
+
+.rating-active:before {
+   content: "\2605";
+   position: absolute;
+}
+.rating {
+  display: inline;
+  margin-left: 10px;
+  margin-top: 10px;
+  float:right;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+@import url('https://fonts.googleapis.com/css?family=Chonburi|Dancing+Script');
+@media screen and (min-width: 640px) {
+  .navbox {width: 150px; float: left;}  
+}
+/* Within Container */
+.zoom-within-container {
+  height: 200px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+.zoom-within-container{
+  transition: transform .5s ease;
+}
+.zoom-within-container:hover{
+  transform: scale(1.5);
+}
+a:hover #img, a:focus #img {
+  transform:translate(-100px,-100px);
+} 
+body {
+  background-image:url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#logo{
+	float:left;
+	width:50px;
+	height:50px;
+  padding-left:5%;
+}
+h1 {
+  font-family: 'Chonburi', cursive;
+  color: red;
+  text-align: center;
+  font-size: 4em;
+  font-style:italic;
+}
+h2 {
+  font-family: 'Dancing Script', cursive;
+}
+h3 {
+     font-family: 'Chonburi', cursive;
+}
+
+
+#pic{
+	float:center;
+	width:20%;
+	height:20%;
+}
+#logo{
+	float:left;
+	width:250px;
+	height:100px;
+  padding-left:5%;
+}
+#container {
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-around;
+ align-items: stretch;
+ font-family: 'Chonburi', cursive;
+ padding:2%;
+} 
+
+#img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+
+		#img {
+			float: left;
+			width: 100%;
+			height: 20%;
+			margin-top: 100px;
+			margin-bottom: 30px;
+      transition: transform .2s;
+		}
+
+		
+
+		table {
+			color: black;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-size: 12px;
+			border-collapse: collapse;
+			width: 50%;
+		}
+
+		td,
+		th {
+			border: 1px solid #dddddd;
+			text-align: left;
+			padding: 5px;
+		}
+
+		#shoppingcartclass {
+			font-size: 12px;
+			text-align: left;
+		}
+
+		
